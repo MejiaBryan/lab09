@@ -1,0 +1,6 @@
+echo $1 #Ingresando le primer parametro
+if [ -n "$1" ]; then #mira si el parametro ingresaodo existe 
+	echo Hola $1 #si existe entonces imrime el mesaje + parametro
+else #sino
+	echo "No ingreso parametros" #Manda el mensaje no ingreso parametros
+fi

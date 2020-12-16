@@ -1,0 +1,10 @@
+echo $1
+if [ -n "$1" ], then
+	for a
+ in $pala
+	do
+		echo $pala
+	done
+else
+	echo "No puso parametros"
+fi

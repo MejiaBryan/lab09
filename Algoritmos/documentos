@@ -1,0 +1,21 @@
+Hospital	paciente	Biobanco	tipo_Usher
+Barcelona	Castells	Barcelona_A	Usher2A
+Mallorca	Pagan	Barcelona_B	usher1b
+
+Albacete	Blanca	Madrid_A	usher2
+madrid	Cardosa	madrid_B	usher1a
+almeria	Melia	Valencia_B	sano
+acusco	Valencia	Peru_C	sana      
+Valencia	Paniagua	Castellon	usher1B
+Castellon	Sogorb	valencia_B	usher2B
+
+castellon	Galiana	Barcelona_C	usher3
+Granada	Bastella	Valencia_A	fin
+    arequipa	Ramos	Peru_C	sano
+Alicante	Carracola	Barcelona_D	usher3A
+Castellon	Sogorb	barcelona_C	UsherX
+arequipa	Valencia	Peru_B	sana
+cercado	suarez	arequipa_C	sano
+lima	<np>	undefined	npusher
+Barcelon	Pagan	Valencia_C	sonsanoss
+Tacna	sanos	Peru_A	usher2b

@@ -1,0 +1,17 @@
+if [ $# -le 0 ]; then #Comprueba que al menos exista 1 parametro
+	echo "Introducir mas de 1 parametro" #si no existe manda aviso
+	exit 1 #termina el script
+fi
+msg="Hola," #mensaje antes del parametro predeterminado
+a=1 #interruptor 
+while [ -n "$1" ]; do #mientras que haya parametros
+
+	if [ $a -eq 1 ]; then #
+		msg="$msg $1" #concatena el msg predeterminado con el parametro
+		a=0 #vuelve al alojamiento del parametro 0
+	else
+		msg="$msg, $1"
+	fi
+	shift
+done
+echo $msg"!"
